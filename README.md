@@ -3,7 +3,7 @@
 
 `Name: Alistaire Noiprasit`
 
-<!-- INSERT CI PYTEST STATUS HERE -->
+[![Run Pytest](https://github.com/alistairenoiprasit/cse3150_hw_2/actions/workflows/pytest.yaml/badge.svg)](https://github.com/alistairenoiprasit/cse3150_hw_2/actions/workflows/pytest.yaml)
 
 I declare that:
 - this assessment item is my own work, except where acknowledged, and has not been submitted for
@@ -16,8 +16,8 @@ Misconduct.
 > This work is NOT ready for submission as of `Day XX MONTH 2025`. <br>
 -->
 > [!IMPORTANT]
-> This work is NOT ready for submission as of `<insert date>`. <br>
-> The final due date is `<insert date>`.
+> This work is NOT ready for submission as of `TBC`. <br>
+> The final due date is `11 Sep 2025`.
 
 SIGNED: ALISTAIRE NOIPRASIT
 
