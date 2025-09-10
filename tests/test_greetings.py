@@ -2,7 +2,12 @@ import subprocess
 import pytest
 import os
 
+#AI Declaration:
+# I used AI to create compilation so that pytest may run properly during the build
+# I also used AI to format this file when I copy-paste it from the instructions PDF
+# so that I did not have to manually remove individual spaces created during the copy-paste.
 
+# Begin AI Function
 @pytest.fixture(scope="module", autouse=True)
 def build_and_cleanup():
     """Compile greeter.cpp before tests and delete after."""
@@ -14,7 +19,7 @@ def build_and_cleanup():
     # Cleanup
     if os.path.exists("greeter"):
         os.remove("greeter")
-
+# End of AI Function
 
 def run_greeter(input_text):
     """Helper function to run the compiled C++ greeter with input."""
