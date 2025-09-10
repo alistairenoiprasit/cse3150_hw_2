@@ -1,7 +1,7 @@
 import subprocess
 import pytest
 import os
-import tracemalloc
+
 #AI Declaration:
 # I used AI to create compilation so that pytest may run properly during the build
 # I also used AI to format this file when I copy-paste it from the instructions PDF
