@@ -15,5 +15,5 @@ int main() {
     using namespace GreetingUtils;
     char* greeting_c = format_as_c_string(create_message(full_name));
     cout << greeting_c << endl;
-    free(greeting_c);
+    delete[] greeting_c;
 }
